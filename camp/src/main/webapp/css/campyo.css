@@ -1,0 +1,49 @@
+
+
+   *{margin:0; padding:0;}
+    /* header , footer --> iframe*/
+    iframe.h,iframe.f { 
+        overflow:hidden; border:none;
+    }
+    .footer{
+        color:gray; font-size:8pt; margin-left:5px;
+    }
+   img.header_image{
+    padding:0; margin-bottom:5px;
+    margin-left:10px; margin-top:10px;
+   }
+    ul.header_a {
+       list-style-type:none;overflow:hidden; position:fixed; right:10px;
+       margin-left:0; padding:0; display:inline-block;
+    }
+    ul.header_a li{
+         margin-right:5px;
+       float:left;
+    }
+    ul.header_a li a{text-decoration: none; color:gray; font-size:9pt;}
+    ul.header_b{
+       clear:left;  list-style-type:none;overflow:hidden;
+       margin:0; padding:0;  display:block; text-align:center; background-color:lightgray;
+    }
+    ul.header_b li{
+        display:inline-block; margin-right:20px; font-weight:bold; 
+    }
+    
+ div.slideShow ul{
+    list-style-type:none;
+ }
+ 
+ ul.slidelist li img {width:100%;}
+ .join_content {
+     margin-top:50px;
+ }
+ [name=joinForm]{
+    border:1px solid red;  margin-top:40px; text-align:center;
+ }
+ .join h1{text-align:center;}
+
+ .join_input, .hp, .email {
+    border-radius:5px; border:1px solid lightgray;
+ }
+ 
+[name=joinForm] ul li{ list-style-type:none;border:1px solid green; }
