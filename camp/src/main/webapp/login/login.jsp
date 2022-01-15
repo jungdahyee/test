@@ -39,7 +39,7 @@
              </fieldset>
        </div>
 <iframe class="f" src="../footer.jsp" scrolling="no" width="100%" height="50"></iframe>
-<script src="js/camp.js"></script>
+<script src="../js/camp.js"></script>
 
 </body>
 </html>

@@ -11,7 +11,7 @@
 <body>
 <iframe class="h" src="../header.jsp" scrolling="no" width="100%" height="90"></iframe>
 
-<form name="joinForm" action="" method="post">
+        <form name="joinForm" action="" method="post">
         <div class="content">
             <fieldset class="fieldset">
                <legend class="legend">회원가입</legend>
@@ -49,12 +49,15 @@
                         <label>이메일*</label>
                         <input name="email" type="email" id="email">                   
                     </li>
+                    <li>
+                        <button type="button" onclick="joinFormCheck()">가입</button>
+                    </li>
                 </ul>
-            </form>
             </fieldset> 
-</div>
+            </div>
+            </form>
 
 <iframe class="f" src="../footer.jsp" scrolling="no" width="100%" height="50"></iframe>
-<script src="js/camp.js"></script>
+<script src="../js/camp.js"></script>
 </body>
 </html>
