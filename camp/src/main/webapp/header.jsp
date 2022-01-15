@@ -17,7 +17,7 @@
     <li><a href="mypage/mypage.jsp" target="_parent">마이페이지</a></li>
 </ul>
 <ul class="header_b">
-    <li>캠핑장조회</li>
+    <li><a href="search/search.jsp" target="_parent">캠핑장조회</a></li>
     <li>캠핑정보</li>
     <li>공지사항</li>
 </ul>
