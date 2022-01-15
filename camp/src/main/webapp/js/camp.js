@@ -39,3 +39,13 @@ function passCheck(){
     }
 }
 
+function reportList1(){
+    document.getElementsByName("report_2").style.display = none;
+    document.getElementsByName("report_1").style.display=block;
+}
+
+
+function reportList2(){
+    document.getElementsByName("report_1").style.display = none;
+    document.getElementsByName("report_2").style.display=block;
+}
