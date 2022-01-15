@@ -14,8 +14,6 @@
 
 <div class="login">
           <form name="loginForm" action="" method="post">
-            <fieldset class="fieldset1">
-                <legend class="legend1">로그인</legend>
                 <ul class="top">
                     <li>
                         <label>아이디</label>
@@ -36,7 +34,6 @@
                     </li>
                 </ul>
           </form>
-             </fieldset>
        </div>
 <iframe class="f" src="../footer.jsp" scrolling="no" width="100%" height="50"></iframe>
 <script src="../js/camp.js"></script>

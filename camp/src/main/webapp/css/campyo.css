@@ -42,18 +42,22 @@
 /*
     login from
 */
-.fieldset1{ margin:20% 35%; background:white;}
-    .legend1{ margin:0 0 0 300px; font-family:dotum; font-size:20px; font-weight:bold;}
+.login{position: absolute;
+		    top: 50%;
+		    left: 45%;
+		    transform: translate(-50%, -50%);
+			background:white;}
 form[name="loginForm"] ul {
         list-style-type:none;
     }
     .login .top li { padding:0 0 30px;}
-    .login .top li label {display: inline-block; width:90px; font-size:20px; color:black; font-family:dotum; font-weight:bold; margin:0 0 0 120px;}
+    .login .top li label {display: inline-block; width:90px; font-size:20px; color:black; font-family:dotum; font-weight:bold; margin:0 0 0 90px;}
      .login .top li input[type="text"],
      .login .top li input[type="password"] {width:200px; height:27px; padding:0; border-color:black;}
      .login .top li .btn_style1 {display:inline-block; width:400px; height:50px;
-                                background:#BCFF66; text-align:center; font-family:dotum; color:white; font-size:25px; font-weight:bold; margin:0 0 0 85px;}
-     .login .btm .btm_span .span1 {margin:0 0 0 120px;}
+                                background:#BCFF66; text-align:center; font-family:dotum; color:white; font-size:25px; font-weight:bold; 
+                                margin:0 0 0 50px;}
+     .login .btm .btm_span .span1 {margin:0 0 0 90px;}
      .login .btm .btm_span .span2 {margin:0 0 0 50px;}  
      .login .btm .btm_span .span3 {margin:0 0 0 50px;}                            
     
