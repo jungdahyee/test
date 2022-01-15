@@ -10,11 +10,11 @@
 </head>
 <body>
 <header>
-<a href="main.jsp"><img class="header_image" alt="오류" src="images/campyo.png"></a>
+<a href="main.jsp" target="_parent"><img class="header_image" alt="오류" src="images/campyo.png"></a>
 <ul class="header_a">
-    <li>로그인</li>
-    <li>회원가입</li>
-    <li>마이페이지</li>
+    <li><a href="login.jsp" target="_parent">로그인</a></li>
+    <li><a>회원가입</a></li>
+    <li><a>마이페이지</a></li>
 </ul>
 <ul class="header_b">
     <li>캠핑장조회</li>
