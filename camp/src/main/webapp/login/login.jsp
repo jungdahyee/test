@@ -18,7 +18,7 @@
                 <legend class="legend1">로그인</legend>
                 <ul class="top">
                     <li>
-                        <label>봉철s 오늘 멋있어</label>
+                        <label>아이디 김시아</label>
                         <input type="text" name="id" id="id">
                     </li>
                     <li class="pass1">
