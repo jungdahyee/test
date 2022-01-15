@@ -37,7 +37,5 @@ function passCheck(){
     }else{
         document.getElementById("id_space").innerHTML="";
     }
-    
-    
 }
 
