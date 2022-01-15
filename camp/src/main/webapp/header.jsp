@@ -12,8 +12,8 @@
 <header>
 <a href="main.jsp" target="_parent"><img class="header_image" alt="오류" src="images/campyo.png"></a>
 <ul class="header_a">
-    <li><a href="login.jsp" target="_parent">로그인</a></li>
-    <li><a>회원가입</a></li>
+    <li><a href="login/login.jsp" target="_parent">로그인</a></li>
+    <li><a href="join/join.jsp" target="_parent">회원가입</a></li>
     <li><a>마이페이지</a></li>
 </ul>
 <ul class="header_b">
