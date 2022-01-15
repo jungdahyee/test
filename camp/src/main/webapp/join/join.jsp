@@ -11,10 +11,9 @@
 <body>
 <iframe class="h" src="../header.jsp" scrolling="no" width="100%" height="90"></iframe>
 
-        <form name="joinForm" action="" method="post">
         <div class="content">
-            <fieldset class="fieldset">
-               <legend class="legend">회원가입</legend>
+        <form name="joinForm" action="" method="post">
+            <h1 class="join_name">campYo</h1>
                 <ul class="top">
                     <li>
                         <label>아이디*</label>
@@ -50,12 +49,11 @@
                         <input name="email" type="email" id="email">                   
                     </li>
                     <li>
-                        <button type="button" onclick="joinFormCheck()">가입</button>
+                        <button type="button" onclick="joinFormCheck()" class="btn_join">가입</button>
                     </li>
                 </ul>
-            </fieldset> 
-            </div>
             </form>
+            </div>
 
 <iframe class="f" src="../footer.jsp" scrolling="no" width="100%" height="50"></iframe>
 <script src="../js/camp.js"></script>

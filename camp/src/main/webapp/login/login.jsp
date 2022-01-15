@@ -11,9 +11,10 @@
 <iframe class="h" src="../header.jsp" scrolling="no" width="100%" height="90"></iframe>
 
 
-
 <div class="login">
+    
           <form name="loginForm" action="" method="post">
+                <h1 class="login_name">campYo</h1>
                 <ul class="top">
                     <li>
                         <label>아이디</label>
