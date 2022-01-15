@@ -16,16 +16,16 @@
         my page form
      */
      
-
+     .sidebar-menu li { width:200px; }
      
      ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
-        width: 15%;
+        width: 200px;
         background-color: #f1f1f1;
         position: fixed;
-        height: 100%;
+        height: 500px;
         overflow: auto;
         border: 1px solid red;
      }
@@ -46,4 +46,7 @@
      
      #content {
         border: 1px solid red;
+        margin-left:13%;
+        padding:0px 16px;
+        height:500px;
      } 
