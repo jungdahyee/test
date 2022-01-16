@@ -4,7 +4,7 @@
 ul, li {list-style:none;}
 
 [name="slide"] {display:none;}
-.slidebox {max-width:2000px;width:100%;margin:0 auto;text-align:center;}
+.slidebox {max-width:1600px;width:100%;margin:0 auto;text-align:center;}
 .slidebox img {max-width:100%;}
 .slidebox .slidelist {
     white-space:nowrap;
@@ -253,6 +253,42 @@ form[name="loginForm"] ul {
      .findPass .top li .email1{ width:100px; height:27px; border:1px solid gray; border-radius:5px;}
      .findPass .top li .email2{ width:100px; height:27px; border:1px solid gray; border-radius:5px;}
      .findPass .top li .email3{ display:inline-block; width:100px; height:27px; border:1px solid gray; border-radius:5px;}
+     
+    /*
+    rsrv from
+    */
+     .logo_name{display: table;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    color:#BCFF66; font-size:100px; font-family:dotum;}
+    .rsrv {display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items : center;
+            background:white;}
+    form[name="rsrvForm"] ul {
+        list-style-type:none;
+    }
+    .rsrv .top li { padding:0 0 20px;}
+    .rsrv .top li label { display:inline-block; width:100px; color:black; font-family:dotum; font-size:15px; font-weight:bold;}
+     .rsrv .top li input {width:100px; height:27px; padding:0; border:1px solid gray; border-radius:5px;}
+     .rsrv .top .hp{width:64px; height:30px; padding:0; border:1px solid gray; border-radius:5px;}
+     .rsrv .top span input { width:64px; height:27px; padding:0; border:1px solid gray; border-radius:5px;}
+     .rsrv .top .btn_rsrv1{display:inline-block; width:100px; height:50px;
+                                background:#BCFF66; text-align:center; font-family:dotum; color:white; font-size:15px; font-weight:bold;
+                                margin:0 0 0 50px; border:1px solid gray; border-radius:5px;}
+     .rsrv .top .btn_rsrv2{display:inline-block; width:100px; height:50px;
+                                background:#BCFF66; text-align:center; font-family:dotum; color:white; font-size:15px; font-weight:bold;
+                                margin:0 0 0 50px; border:1px solid gray; border-radius:5px;}
+     
+     
+     
+     
+     
+     
+     
+     
      
      
      
