@@ -16,6 +16,10 @@
         my page form
      */
      
+     iframe.mp_change_info {
+        border:1px solid blue;
+     }
+     
      .sidebar-menu li { width:200px; }
      
      ul {
@@ -47,6 +51,7 @@
      #content {
         border: 1px solid red;
         margin-left:13%;
+        margin-top:auto;
         padding:0px 16px;
         height:500px;
      } 
