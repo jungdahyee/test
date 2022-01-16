@@ -9,7 +9,7 @@
 <link href="../css/campyo.css" rel="stylesheet">
 </head>
 <body>
-<iframe class="h" src="../header.jsp" scrolling="no" width="100%" height="90"></iframe>
+<iframe class="h" src="../header.jsp" scrolling="no" width="100%" height="100"></iframe>
 
 <div class="findPass">
         <form name="findPassForm" action="" method="post">

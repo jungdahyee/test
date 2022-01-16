@@ -9,7 +9,7 @@
 <link href="../css/report.css" rel="stylesheet">
 </head>
 <body>
-<iframe class="h" src="../header.jsp" scrolling="no" width="100%" height="90"></iframe>
+<iframe class="h" src="../header.jsp" scrolling="no" width="100%" height="100"></iframe>
 <div class="report_list">
     <button type="button" class="report_btn" onclick="reportList1()" >캠핑장 주의사항</button>
     <button type="button" class="report_btn" onclick="reportList2()">캠핑용품 준비리스트</button>
