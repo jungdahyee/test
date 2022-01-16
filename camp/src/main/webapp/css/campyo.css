@@ -121,13 +121,14 @@ label.right {
          margin-right:5px;
        float:left;
     }
-    ul.header_a li a{text-decoration: none; color:gray; font-size:9pt;}
+    ul.header_a li a{text-decoration: none; color:gray; font-size:9pt; }
+    ul.header_b li a{text-decoration:none; font-size:15pt; color:black;}
     ul.header_b{
        clear:left;  list-style-type:none;overflow:hidden;
-       margin:0; padding:0;  display:block; text-align:center; background-color:lightgray;
+       margin:0; padding:5px;  display:block; text-align:center; background-color:lightgray; 
     }
     ul.header_b li{
-        display:inline-block; margin-right:20px; font-weight:bold; 
+        display:inline-block; margin-right:20px; font-weight:bold;
     }
     
 

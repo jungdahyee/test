@@ -19,7 +19,7 @@
 <ul class="header_b">
     <li><a href="search/search.jsp" target="_parent">캠핑장조회</a></li>
     <li><a href="report/report.jsp" target="_parent">캠핑정보</a></li>
-    <li>공지사항</li>
+    <li><a>공지사항</a></li>
 </ul>
 </header>
 
