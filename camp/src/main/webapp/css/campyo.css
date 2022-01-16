@@ -1,27 +1,104 @@
 
 
-   /* 브라우저 마진과 패딩 리셋 */
-    * {margin:0;padding:0;}
+ * {margin:0;padding:0;box-sizing:border-box;}
+ul, li {list-style:none;}
 
-    /* INPUT 가리기 */
-    .section input[id*="slide"] {display:none;}
+[name="slide"] {display:none;}
+.slidebox {max-width:2000px;width:100%;margin:0 auto;text-align:center;}
+.slidebox img {max-width:100%;}
+.slidebox .slidelist {
+    white-space:nowrap;
+    font-size:0;
+    overflow:hidden;
+}
+.slidebox .slideitem {
+    position:relative;
+    display:inline-block;
+    vertical-align:middle;
+    width:100%;
+    transition:all .35s;
+}
+.slidebox .slideitem label {
+    position:absolute;
+    z-index:1;
+    top:50%;
+    transform:translateY(-50%);
+    padding:20px;
+    border-radius:50%;
+    cursor:pointer;
+}
+label.left {
+    left:20px;
+    background-color:#5F5F5F;
+    background-image:url('../images/left.png');
+    background-position:center center;
+    background-size:50%;
+    background-repeat:no-repeat;
+}
+label.right {
+    right:20px;
+    background-color:#5F5F5F;
+    background-image:url('../images/right.png');
+    background-position:center center;
+    background-size:50%;
+    background-repeat:no-repeat;
+}
 
-    /* 슬라이드 영역 - max-width 크기를 조절해주면 됩니다*/
-    .section .slidewrap {max-width:2000px;margin:0 auto;overflow:hidden;}
-    .section .slidelist {white-space:nowrap;font-size:0;}
-    .section .slidelist > li {display:inline-block;vertical-align:middle;width:100%;transition:all .5s;}
-    .section .slidelist > li > a {display:block;position:relative;}
-    .section .slidelist > li > a img {width:100%;}
+/* 페이징 스타일 */
+.paginglist {text-align:center;padding:30px 0;}
+.paginglist > li {display:inline-block;vertical-align:middle;margin:0 10px;}
+.paginglist > li > label {display:block;padding:10px 30px;border-radius:10px;background:#ccc;cursor:pointer;}
+.paginglist > li:hover > label {background:#333;}
 
-    /* 좌우로 넘기는 LABEL버튼에 대한 스타일 */
-    .section .slidelist label {position:absolute;z-index:1;top:50%;transform:translateY(-50%);padding:50px;cursor:pointer;}
-    .section .slidelist .left {left:30px;background:url('../images/left.png') center center / 100% no-repeat;}
-    .section .slidelist .right {right:30px;background:url('../images/right.png') center center / 100% no-repeat;}
+[id="slide01"]:checked ~ .slidelist .slideitem {transform:translateX(0);animation:slide01 20s infinite;}
+[id="slide02"]:checked ~ .slidelist .slideitem {transform:translateX(-100%);animation:slide02 20s infinite;}
+[id="slide03"]:checked ~ .slidelist .slideitem {transform:translateX(-200%);animation:slide03 20s infinite;}
+[id="slide04"]:checked ~ .slidelist .slideitem {transform:translateX(-300%);animation:slide04 20s infinite;}
 
-    /* INPUT 체크되면 변화값이 li까지 전달되는 스타일 */
-    .section input[id="slide01"]:checked ~ .slidewrap .slidelist > li {transform:translateX(0%);}
-    .section input[id="slide02"]:checked ~ .slidewrap .slidelist > li {transform:translateX(-100%);}
-    .section input[id="slide03"]:checked ~ .slidewrap .slidelist > li {transform:translateX(-200%);}
+@keyframes slide01 {
+    0% {left:0%;}
+    23% {left:0%;}
+    25% {left:-100%;}
+    48% {left:-100%;}
+    50% {left:-200%;}
+    73% {left:-200%;}
+    75% {left:-300%;}
+    98% {left:-300%;}
+    100% {left:0%;}
+}
+@keyframes slide02 {
+    0% {left:0%;}
+    23% {left:0%;}
+    25% {left:-100%;}
+    48% {left:-100%;}
+    50% {left:-200%;}
+    73% {left:-200%;}
+    75% {left:100%;}
+    98% {left:100%;}
+    100% {left:0%;}
+}
+@keyframes slide03 {
+    0% {left:0%;}
+    23% {left:0%;}
+    25% {left:-100%;}
+    48% {left:-100%;}
+    50% {left:200%;}
+    73% {left:200%;}
+    75% {left:100%;}
+    98% {left:100%;}
+    100% {left:0%;}
+}
+@keyframes slide04 {
+    0% {left:0%;}
+    23% {left:0%;}
+    25% {left:300%;}
+    48% {left:300%;}
+    50% {left:200%;}
+    73% {left:200%;}
+    75% {left:100%;}
+    98% {left:100%;}
+    100% {left:0%;}
+}
    
    
    
@@ -53,14 +130,7 @@
         display:inline-block; margin-right:20px; font-weight:bold; 
     }
     
- div.slideShow ul{
-    list-style-type:none;
- }
- 
- ul.slidelist li img {width:100%;}
- .join_content {
-     margin-top:50px;
- }
+
 
 
 /*
