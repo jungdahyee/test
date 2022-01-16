@@ -11,6 +11,14 @@ button.report_btn {
        
 }
 
-[name="report_2"]{
+#report_2{
 	display:none;
+}
+[name="report_video"]{
+	display:block; margin:auto; margin-top:50px;
+}
+
+.videoname{
+	text-align:center; margin-bottom:40px;
+	
 }

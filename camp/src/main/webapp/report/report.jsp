@@ -15,11 +15,18 @@
     <button type="button" class="report_btn" onclick="reportList2()">캠핑용품 준비리스트</button>
 </div>
 <div>
-    <div class="report_1" name="report_1">
-        캠핑장주의사항
-    
+    <div class="report_1" id="report_1">
+      <iframe width="560" height="315" name="report_video" src="https://www.youtube.com/embed/gNC-n32JyHI"
+       title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+       clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       <p class="videoname">캠핑장 안전수칙</p>
+        <iframe width="560" height="315" name="report_video" src="https://www.youtube.com/embed/A9uLnZTH_bI" 
+        title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       <p class="videoname">캠핑장 주의사항</p>
     </div>
-    <div class="report_2" name="report_2">
+    
+    <div class="report_2" id="report_2">
          캠핑용품 준비리스트
     </div>
 </div>
