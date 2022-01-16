@@ -45,20 +45,7 @@
             </div>
         </li>
     </ul>
-    <!-- <ul class="paginglist">
-        <li>
-            <label for="slide01"></label>
-        </li>
-        <li>
-            <label for="slide02"></label>
-        </li>
-        <li>
-            <label for="slide03"></label>
-        </li>
-        <li>
-            <label for="slide04"></label>
-        </li>
-    </ul> -->
+    
 </div>
 <iframe class="f" src="footer.jsp" scrolling="no" width="100%" height="50"></iframe>
 <script src="js/camp.js"></script>
