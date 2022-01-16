@@ -160,7 +160,11 @@ form[name="loginForm"] ul {
                                 margin:0 0 0 50px; border:1px solid gray; border-radius:5px;}
      .login .btm .btm_span .span1 {margin:0 0 0 90px;}
      .login .btm .btm_span .span2 {margin:0 0 0 50px;}  
-     .login .btm .btm_span .span3 {margin:0 0 0 50px;}                            
+     .login .btm .btm_span .span3 {margin:0 0 0 50px;}       
+     
+  span.login_message{
+        color:red; font-size:8pt ; display:block;
+  }                     
     
     /*
         join form

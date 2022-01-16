@@ -1,4 +1,26 @@
 
+function loginFormCheck(){
+    let id, pass,msg;
+    id=document.getElementById("id");
+    pass=document.getElementById("pass");
+    msg = document.getElementById("login_message");
+    
+    if(id.value==""){
+        msg.innerHTML="아이디를 입력해주세요"
+        id.focus();
+        return false;
+    }else if(pass.value==""){
+        msg.innerHTML="비밀번호를 입력해주세요"
+        pass.focus();
+        return false;
+    }
+    
+}
+
+
+
+
+
 function joinFormCheck(){
     let id, pass, cpass, name, hp1,hp2,hp3,email1,email2,email3;
     id=document.getElementById("id");

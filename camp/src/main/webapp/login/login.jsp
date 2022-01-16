@@ -25,7 +25,8 @@
                         <input type="password" name="pass" id="pass">
                     </li>
                     <li>
-                        <button type="button" class="btn_style1">로그인</button>
+                        <span class="login_message" id="login_message"></span>
+                      <button type="button" class="btn_style1" onclick="loginFormCheck()">로그인</button>
                  </ul>
                  <ul class="btm">
                     <li class="btm_span">
