@@ -136,7 +136,7 @@ label.right {
 /*
     login from
 */
-.login_name{display: table;
+.logo_name{display: table;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 60px;
@@ -161,15 +161,15 @@ form[name="loginForm"] ul {
      .login .btm .btm_span .span1 {margin:0 0 0 90px;}
      .login .btm .btm_span .span2 {margin:0 0 0 50px;}  
      .login .btm .btm_span .span3 {margin:0 0 0 50px;}       
-     
+     .login .btm .btm_span a{ text-decoration:none;}
   span.login_message{
         color:red; font-size:10pt ; display:block; text-align:center; padding:5px; margin-left:110px; margin-top:-20px;
-  }                     
+  }
     
     /*
         join form
     */
-    .join_name{display: table;
+    .logo_name{display: table;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 60px;
@@ -198,9 +198,60 @@ form[name="loginForm"] ul {
      .content .top li .email2{ width:100px; height:27px; border:1px solid gray; border-radius:5px;}
      .content .top li .email3{ display:inline-block; width:100px; height:27px; border:1px solid gray; border-radius:5px;}
      
-     
-     
-     
+     /*
+        findId form
+    */
+    .logo_name{display: table;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    color:#BCFF66; font-size:100px; font-family:dotum;}
+.findId {display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items : center;
+            background:white;}
+     form[name="findIdForm"] ul {
+        list-style-type:none;
+    }
+    .findId .top li { padding:0 0 30px;}
+    .findId .top li label {display: inline-block; width:90px; font-size:15px; color:black; font-family:dotum; font-weight:bold;
+                          margin:0 0 0 90px;}
+     .findId .top li input[type="text"]{width:200px; height:27px; padding:0; border-color:black;
+                                            border:1px solid gray; border-radius:5px;}
+     .findId .top li .email1{ width:100px; height:27px; border:1px solid gray; border-radius:5px;}
+     .findId .top li .email2{ width:100px; height:27px; border:1px solid gray; border-radius:5px;}
+     .findId .top li .email3{ display:inline-block; width:100px; height:27px; border:1px solid gray; border-radius:5px;}
+     .findId .top .btn_style1 {display:inline-block; width:100px; height:50px;
+                                background:#BCFF66; text-align:center; font-family:dotum; color:white; font-size:25px; font-weight:bold; 
+                                margin:0 0 0 250px; border:1px solid gray; border-radius:5px;}
+     /*
+        findPass form
+    */
+     .logo_name{display: table;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    color:#BCFF66; font-size:100px; font-family:dotum;}
+    .findPass {display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items : center;
+            background:white;}
+    form[name="findPassForm"] ul {
+        list-style-type:none;
+    }
+    .findPass .top li { padding:0 0 20px;}
+    .findPass .top li label { display:inline-block; width:150px; color:black; font-family:dotum; font-size:15px; font-weight:bold;}
+     .findPass .top li input {width:220px; height:27px; padding:0; border:1px solid gray; border-radius:5px;}
+     .findPass .top .hp{width:64px; height:30px; padding:0; border:1px solid gray; border-radius:5px;}
+     .findPass .top span input { width:64px; height:27px; padding:0; border:1px solid gray; border-radius:5px;}
+     .findPass .top li .btn_findPass{display:inline-block; width:100px; height:50px;
+                                background:#BCFF66; text-align:center; font-family:dotum; color:white; font-size:25px; font-weight:bold;
+                                margin:0 0 0 200px; border:1px solid gray; border-radius:5px;}
+     .findPass .top li .email1{ width:100px; height:27px; border:1px solid gray; border-radius:5px;}
+     .findPass .top li .email2{ width:100px; height:27px; border:1px solid gray; border-radius:5px;}
+     .findPass .top li .email3{ display:inline-block; width:100px; height:27px; border:1px solid gray; border-radius:5px;}
      
      
      

@@ -14,7 +14,7 @@
 <div class="login">
     
           <form name="loginForm" action="" method="post">
-                <h1 class="login_name">campYo</h1>
+                <h1 class="logo_name">campYo</h1>
                 <ul class="top">
                     <li>
                         <label>아이디</label>
@@ -30,9 +30,9 @@
                  </ul>
                  <ul class="btm">
                     <li class="btm_span">
-                        <span class="span1">회원가입</span>
-                        <span class="span2">아이디 찾기</span>
-                        <span class="span3">비밀번호 찾기</span>
+                        <span class="span1"><a href="../join/join.jsp">회원가입</a></span>
+                        <span class="span2"><a href="../findId/findId.jsp">아이디 찾기</a></span>
+                        <span class="span3"><a href="../findPass/findPass.jsp">비밀번호 찾기</a></span>
                     </li>
                 </ul>
           </form>

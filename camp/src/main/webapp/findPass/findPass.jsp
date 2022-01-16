@@ -11,27 +11,19 @@
 <body>
 <iframe class="h" src="../header.jsp" scrolling="no" width="100%" height="90"></iframe>
 
-        <div class="content">
-        <form name="joinForm" action="" method="post">
+<div class="findPass">
+        <form name="findPassForm" action="" method="post">
             <h1 class="logo_name">campYo</h1>
                 <ul class="top">
-                    <li>
-                        <label>아이디*</label>
-                        <input name="ia" type="text" id="id">
-                        <button type="button" class="btn_style1">중복확인</button>
-                    </li>
-                    <li>   
-                        <label>비밀번호*</label>
-                        <input name="pass" type="password" id="pass">
-                    </li>
-                    <li>
-                        <label>비밀번호확인*</label>
-                        <input name="cpass" type="password" id="cpass">
-                    </li>
                     <li>
                         <label>이름*</label>
                         <input name="name" type="text" id="name">
                     </li>
+                    <li>
+                        <label>아이디*</label>
+                        <input name="ia" type="text" id="id">
+                    </li>
+                    
                     <li>
                        <label>핸드폰번호*</label>
                        <span>
@@ -49,19 +41,20 @@
                         <input name="email1" type="email" id="email1" class="email1"> @
                         <input name="eamil2" type="email" id="email2" class="email2">
                         <select class="email3" id="email3" onchange="emailCheck()">
-		                    <option value="choice">선택</option>
-		                    <option value="naver.com">naver.com</option>
-		                    <option value="google.com">google.com</option>
-		                    <option value="daum.net">daun.net</option>
-		                    <option value="self">직접입력</option>
-		                </select>                   
+                            <option value="choice">선택</option>
+                            <option value="naver.com">naver.com</option>
+                            <option value="google.com">google.com</option>
+                            <option value="daum.net">daun.net</option>
+                            <option value="self">직접입력</option>
+                        </select>                   
                     </li>
                     <li>
-                        <button type="button" onclick="joinFormCheck()" class="btn_join">가입</button>
+                        <button type="button" onclick="findPassFormCheck()" class="btn_findPass">찾기</button>
                     </li>
                 </ul>
             </form>
             </div>
+
 
 <iframe class="f" src="../footer.jsp" scrolling="no" width="100%" height="50"></iframe>
 <script src="../js/camp.js"></script>
