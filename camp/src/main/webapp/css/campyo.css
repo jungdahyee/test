@@ -142,7 +142,7 @@ label.right {
     margin-bottom: 60px;
     color:#BCFF66; font-size:100px; font-family:dotum;}
 .login {display: flex;
-    height: 100vh;
+    height: 80vh;
     justify-content: center;
     align-items : center;
 			background:white;}
@@ -150,12 +150,14 @@ form[name="loginForm"] ul {
         list-style-type:none;
     }
     .login .top li { padding:0 0 30px;}
-    .login .top li label {display: inline-block; width:90px; font-size:20px; color:black; font-family:dotum; font-weight:bold; margin:0 0 0 90px;}
+    .login .top li label {display: inline-block; width:90px; font-size:15px; color:black; font-family:dotum; font-weight:bold;
+                          margin:0 0 0 90px;}
      .login .top li input[type="text"],
-     .login .top li input[type="password"] {width:200px; height:27px; padding:0; border-color:black;}
+     .login .top li input[type="password"] {width:200px; height:27px; padding:0; border-color:black;
+                                            border:1px solid gray; border-radius:5px;}
      .login .top li .btn_style1 {display:inline-block; width:400px; height:50px;
                                 background:#BCFF66; text-align:center; font-family:dotum; color:white; font-size:25px; font-weight:bold; 
-                                margin:0 0 0 50px;}
+                                margin:0 0 0 50px; border:1px solid gray; border-radius:5px;}
      .login .btm .btm_span .span1 {margin:0 0 0 90px;}
      .login .btm .btm_span .span2 {margin:0 0 0 50px;}  
      .login .btm .btm_span .span3 {margin:0 0 0 50px;}                            
@@ -169,7 +171,7 @@ form[name="loginForm"] ul {
     margin-bottom: 60px;
     color:#BCFF66; font-size:100px; font-family:dotum;}
     .content {display: flex;
-    height: 100vh;
+    height: 80vh;
     justify-content: center;
     align-items : center;
             background:white;}
@@ -178,7 +180,7 @@ form[name="loginForm"] ul {
         list-style-type:none;
     }
     .content .top li { padding:0 0 20px;}
-    .content .top li label { display:inline-block; width:150px; color:black; font-family:dotum; font-size:20px; font-weight:bold;}
+    .content .top li label { display:inline-block; width:150px; color:black; font-family:dotum; font-size:15px; font-weight:bold;}
      .content .top li input {width:220px; height:27px; padding:0; border:1px solid gray; border-radius:5px;}
      .content .top .hp{width:64px; height:30px; padding:0; border:1px solid gray; border-radius:5px;}
      .content .top span input { width:64px; height:27px; padding:0; border:1px solid gray; border-radius:5px;}
@@ -187,9 +189,10 @@ form[name="loginForm"] ul {
                                 border:1px solid gray; border-radius:5px;}
      .content .top li .btn_join{display:inline-block; width:200px; height:50px;
                                 background:#BCFF66; text-align:center; font-family:dotum; color:white; font-size:25px; font-weight:bold;
-                                margin:0 0 0 110px; border:1px solid gray; border-radius:5px;}
-     
-     
+                                margin:0 0 0 150px; border:1px solid gray; border-radius:5px;}
+     .content .top li .email1{ width:100px; height:27px; border:1px solid gray; border-radius:5px;}
+     .content .top li .email2{ width:100px; height:27px; border:1px solid gray; border-radius:5px;}
+     .content .top li .email3{ display:inline-block; width:100px; height:27px; border:1px solid gray; border-radius:5px;}
      
      
      

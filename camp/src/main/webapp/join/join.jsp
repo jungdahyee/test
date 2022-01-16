@@ -46,7 +46,15 @@
                     </li>
                     <li>
                         <label>이메일*</label>
-                        <input name="email" type="email" id="email">                   
+                        <input name="email1" type="email" id="email1" class="email1"> @
+                        <input name="eamil2" type="email" id="email2" class="email2">
+                        <select class="email3" id="email3" onchange="emailCheck()">
+		                    <option value="choice">선택</option>
+		                    <option value="naver.com">naver.com</option>
+		                    <option value="google.com">google.com</option>
+		                    <option value="daum.net">daun.net</option>
+		                    <option value="self">직접입력</option>
+		                </select>                   
                     </li>
                     <li>
                         <button type="button" onclick="joinFormCheck()" class="btn_join">가입</button>
