@@ -9,31 +9,31 @@
 <link href="../css/campyo.css" rel="stylesheet">
 </head>
 <body>
-
-<div class="login">
-    
-          <form name="loginForm" action="" method="post">
-                <h1 class="login_name">campYo</h1>
+    <div class="content">
+        <form name="joinForm" action="" method="post">
+            <h1 class="logo_name">campYo</h1>
                 <ul class="top">
                     
-                    <li class="pass1">
+                    <li>   
                         <label>현재 비밀번호</label>
-                        <input type="password" name="pass" id="pass">
+                        <input name="now_pass" type="password" id="pass">
                     </li>
-                    <li class="pass1">
+                    <li>   
                         <label>변경할 비밀번호</label>
-                        <input type="password" name="change_pass" id="change_pass">
-                    </li>
-                    <li class="pass1">
-                        <label>변경할 비밀번호 확인</label>
-                        <input type="password" name="check_change_pass" id="check_change_pass">
+                        <input name="next_pass" type="password" id="pass">
                     </li>
                     <li>
-                        <button type="button" class="btn_style1">비밀번호 변경하기</button>
-                 </ul>
-                 
-          </form>
-       </div>
-
+                        <label>변경할 비밀번호확인</label>
+                        <input name="next_cpass" type="password" id="cpass">
+                    </li>
+                    
+                    
+                    
+                    <li>
+                        <button type="button" onclick="FormCheck()" class="btn_join">비밀번호 재설정</button>
+                    </li>
+                </ul>
+            </form>
+            </div>
 </body>
 </html>
