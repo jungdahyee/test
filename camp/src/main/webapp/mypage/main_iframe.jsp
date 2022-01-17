@@ -9,9 +9,6 @@
 <link href="../css/mypage.css" rel="stylesheet">
 </head>
 <body>
-    <div class="main_iframe">
-        <img src="../images/campyo.png">
-        <p>원하는 페이지를 선택하세요.</p>    
-    </div>
+    <h1 class="logo_name">campYo</h1>
 </body>
 </html>
