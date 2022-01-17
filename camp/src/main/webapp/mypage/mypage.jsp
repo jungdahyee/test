@@ -6,14 +6,15 @@
 <meta charset="UTF-8">
 <meta name="viewport" content = "width=device-width", initial-scale="1">
 <title>Insert title here</title>
+<link href="../css/campyo.css" rel="stylesheet">
 <link href="../css/mypage.css" rel="stylesheet">
 </head>
 <body>
-    <iframe class="h" src="../header.jsp" scrolling="no" width="100%" height="90"></iframe>
+    <iframe class="h" src="../header.jsp" scrolling="no" width="100%" height="100"></iframe>
     
-    <div class="sidebar-menu" scrolling="no">
+    <div class="sidebar_menu">
     <ul>
-        <li><a href="mp_change_info.jsp" target="frame_target">회원정보 조회&수정</a></li>
+        <li><a href="change_info.jsp" target="frame_target">회원정보 조회&수정</a></li>
         <li><a href="change_pw.jsp" target="frame_target">비밀번호 재설정</a></li>
         <li><a href="my_rsrv.jsp" target="frame_target">나의 예약</a></li>
         <li><a href="my_review.jsp" target="frame_target">나의 리뷰</a></li>
@@ -21,14 +22,8 @@
     </ul>
     </div>
     
-    <div id="content">
-        <iframe src="mp_base.jsp" name="frame_target" scrolling="no" width="100%" height="500" frameborder="0"></iframe>
-        
-    </div>
+    <iframe id="main_iframe" src="main_iframe.jsp" name="frame_target"></iframe>
     
-    <iframe class="f" src="../footer.jsp" scrolling="no" width="100%" height="50"></iframe>
-    
-    <script src="js/mypage.js"></script>
-    
+    <iframe class="f" src="../footer.jsp" scrolling="no" width="100%" height="50"></iframe> 
 </body>
 </html>
