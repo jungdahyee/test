@@ -198,6 +198,7 @@ form[name="loginForm"] ul {
      .content .top li .email1{ width:100px; height:27px; border:1px solid gray; border-radius:5px;}
      .content .top li .email2{ width:100px; height:27px; border:1px solid gray; border-radius:5px;}
      .content .top li .email3{ display:inline-block; width:100px; height:27px; border:1px solid gray; border-radius:5px;}
+     .content .top li .join_message{display:block; text-align:center; margin-left:10px; margin-bottom:10px; margin-top:-10px; color:red; font-size:10pt;}
      
      /*
         findId form
@@ -228,7 +229,7 @@ form[name="loginForm"] ul {
                                 margin:0 0 0 250px; border:1px solid gray; border-radius:5px;}
      .findId .top span{display:block; text-align:center; margin-left:90px; margin-bottom:10px; margin-top:-20px; color:red; font-size:10pt;}                           
                                 
-     /*
+      /*
         findPass form
     */
      .logo_name{display: table;
@@ -237,7 +238,7 @@ form[name="loginForm"] ul {
     margin-bottom: 60px;
     color:#BCFF66; font-size:100px; font-family:dotum;}
     .findPass {display: flex;
-    height: 80vh;
+    height: 78vh;
     justify-content: center;
     align-items : center;
             background:white;}
@@ -255,6 +256,8 @@ form[name="loginForm"] ul {
      .findPass .top li .email1{ width:100px; height:27px; border:1px solid gray; border-radius:5px;}
      .findPass .top li .email2{ width:100px; height:27px; border:1px solid gray; border-radius:5px;}
      .findPass .top li .email3{ display:inline-block; width:100px; height:27px; border:1px solid gray; border-radius:5px;}
+     .findPass .top li .findPass_message{display:block; text-align:center; margin-left:10px; margin-bottom:10px; margin-top:-10px; color:red; font-size:10pt;}
+     
      
     /*
     rsrv from

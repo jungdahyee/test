@@ -57,6 +57,7 @@
 		                </select>                   
                     </li>
                     <li>
+                        <span class="join_message" id="join_message"></span>
                         <button type="button" onclick="joinFormCheck()" class="btn_join">가입</button>
                     </li>
                 </ul>

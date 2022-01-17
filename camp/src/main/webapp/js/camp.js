@@ -35,17 +35,29 @@ function joinFormCheck(){
 
     
     if(id.value==""){
-        alert("아이디");
+        document.getElementById("join_message").innerHTML="아이디를 입력해주세요";
+        id.focus();
     }else if(pass.value==""){
-        alert("비번");
+        document.getElementById("join_message").innerHTML="비밀번호를 입력해주세요";
+        pass.focus();
     }else if(cpass.value==""){
-        alert("비번확인");
+        document.getElementById("join_message").innerHTML="비밀번호를 입력해주세요";
+        cpass.focus();
     }else if(name.value==""){
-        alert("name");
-    }else if(hp1.value==""&&hp2.value==""&&hp3.value==""){
-        alert("hp");
-    }else if(email1.value==""&&email2.value==""){
-        alert("email");
+        document.getElementById("join_message").innerHTML="이름을 입력해주세요";
+        name.focus();
+    }else if(hp2.value==""){
+        document.getElementById("join_message").innerHTML="중간번호를 입력해주세요";
+        hp2.focus();
+    }else if(hp3.value==""){
+        document.getElementById("join_message").innerHTML="마지막번호를 입력해주세요";
+        hp3.focus();
+    }else if(email1.value==""){
+        document.getElementById("join_message").innerHTML="이메일을 입력해주세요";
+        email1.focus();
+    }else if(email2.value==""){
+        document.getElementById("join_message").innerHTML="이메일주소를 입력해주세요";
+        email2.focus();
     }
     
 }
@@ -71,3 +83,59 @@ function reportList2(){
     document.getElementById("report_1").style.display = "none";
     document.getElementById("report_2").style.display="block";
 }
+
+function findIdFormCheck(){
+    let name, email1, email2;
+    name=document.getElementById("name");
+    email1=document.getElementById("email1");
+    email2=document.getElementById("email2");
+    
+    if(name.value==""){
+        document.getElementById("findId_message").innerHTML="이름을 입력해주세요";
+        name.focus();
+    }else if(email1.value==""){
+        document.getElementById("findId_message").innerHTML="이메일을 입력해주세요";
+        email1.focus();
+    }else if(email2.value==""){
+        document.getElementById("findId_message").innerHTML="이메일주소를 입력해주세요";
+        email2.focus();
+    }
+}
+
+function findPassFormCheck(){
+    let name, id, hp2, hp3, email;
+    name=document.getElementById("name");
+    id=document.getElementById("id");
+    hp2=document.getElementById("hp2");
+    hp3=document.getElementById("hp3");
+    email1=document.getElementById("email1");
+    email2=document.getElementById("email2");
+    
+    if(name.value==""){
+        document.getElementById("findPass_message").innerHTML="이름을 입력해주세요";
+        name.focus();
+    }else if(id.value==""){
+        document.getElementById("findPass_message").innerHTML="아이디를 입력해주세요";
+        id.focus();
+    }else if(hp2.value==""){
+        document.getElementById("findPass_message").innerHTML="중간번호를 입력해주세요";
+        hp2.focus();
+    }else if(hp3.value==""){
+        document.getElementById("findPass_message").innerHTML="마지막번호를 입력해주세요";
+        hp3.focus();
+    }else if(email1.value==""){
+        document.getElementById("findPass_message").innerHTML="이메일을 입력해주세요";
+        email1.focus();
+    }else if(email2.value==""){
+        document.getElementById("findPass_message").innerHTML="이메일주소를 입력해주세요";
+        email2.focus();
+    }
+}
+
+
+
+
+
+
+
+
