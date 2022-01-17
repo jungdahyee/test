@@ -32,8 +32,10 @@
                             <option value="self">직접입력</option>
                         </select>                   
                     </li>
-                    <span></span>
+                    <li>
+                    <span class="findId_message" id="findId_message"></span>
                     <button type="button" class="btn_style1" onclick="findIdFormCheck()">찾기</button>
+                    </li>
                 </ul>
           </form>
        </div>
