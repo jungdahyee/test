@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Canvas</title>
-<link href="../css/board_list.css" rel="stylesheet">
+<link href="../css/notice_list.css" rel="stylesheet">
 </head>
 <body>
     <iframe class="h" src="../header.jsp" scrolling="no" width="100%" height="90"></iframe>
