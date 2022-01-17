@@ -4,9 +4,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>공지사항</title>
-<link href="http://localhost:9000/cgv/css/cgv.css" rel="stylesheet">
-<script src="http://localhost:9000/cgv/js/cgv.js"></script>
+<title>공지사항 글쓰기</title>
+<link href="../css/notice_write.css" rel="stylesheet">
+<script src="js/camp.js"></script>
 </head>
 <body>
 	<!-- header start -->
