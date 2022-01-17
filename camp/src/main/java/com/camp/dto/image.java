@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.camp.dto;
 
 public class image {
     int reser_num;

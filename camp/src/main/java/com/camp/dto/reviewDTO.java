@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.camp.dto;
 
 public class reviewDTO {
     int review_num, review_like, review_star;

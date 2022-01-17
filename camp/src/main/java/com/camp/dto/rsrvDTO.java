@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.camp.dto;
 
 public class rsrvDTO {
     int rsvn_num;

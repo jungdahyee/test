@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.camp.dto;
 
 public class memberDTO {
     String user_id, user_pass, user_name, user_tel, user_email, sdate, user_exityn;

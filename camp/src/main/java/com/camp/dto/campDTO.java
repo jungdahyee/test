@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.camp.dto;
 
 public class campDTO {
     String camp_name, camp_city, camp_kind, camp_image;

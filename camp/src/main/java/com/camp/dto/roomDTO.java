@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.camp.dto;
 
 public class roomDTO {
     String room_name, room_camp, room_maxhead, room_image, room_intime, room_outtime;

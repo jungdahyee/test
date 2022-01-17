@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.camp.dto;
 
 public class noticeDTO {
     int notice_num;

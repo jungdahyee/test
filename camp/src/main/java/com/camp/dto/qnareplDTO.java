@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.camp.dto;
 
 public class qnareplDTO {
     int qnarepl_num, qna_num, qnarepl_parentnum;

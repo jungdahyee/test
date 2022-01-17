@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.camp.dto;
 
 public class qnaDTO {
     int qna_num, qna_hitnum;
