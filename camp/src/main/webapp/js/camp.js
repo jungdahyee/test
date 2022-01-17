@@ -71,31 +71,3 @@ function reportList2(){
     document.getElementById("report_1").style.display = "none";
     document.getElementById("report_2").style.display="block";
 }
-
-function findIdFormCheck(){
-    let name, email;
-    name=document.getElementById("name");
-    email1=document.getElementById("email1");
-    email2=document.getElementById("email2");
-    if(name.value==""){
-        document.getElementById("findId_message").innerHTML="이름을 입력해주세요";
-    }else if(email1.value==""){
-        document.getElementById("findId_message").innerHTML="이메일을 입력해주세요";
-    }else if(email2.value==""){
-        document.getElementById("findId_message").innerHTML="이메일주소를 입력해주세요";
-    }
-    
-}
-
-function findPassFormCheck(){
-    let 
-}
-
-
-
-
-
-
-
-
-
