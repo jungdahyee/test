@@ -49,8 +49,7 @@
                         </select>                   
                     </li>
                     <li>
-                        <span class="findPass
-                        _message" id="findPass_message"></span>
+                        <span class="findPass_message" id="findPass_message"></span>
                         <button type="button" onclick="findPassFormCheck()" class="btn_findPass">찾기</button>
                     </li>
                 </ul>
