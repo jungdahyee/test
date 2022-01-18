@@ -16,7 +16,7 @@
     <!-- 사이드 네비바 -->
     <div class="sidebar_menu">
     <ul>
-        <li><a href="change_info.jsp" target="frame_target">회원정보 조회&수정</a></li>
+        <li><a href="pwcheck_change_info.jsp" target="frame_target">회원정보 조회&수정</a></li>
         <li><a href="change_pw.jsp" target="frame_target">비밀번호 재설정</a></li>
         <li><a href="my_rsrv.jsp" target="frame_target">나의 예약</a></li>
         <li><a href="my_review.jsp" target="frame_target">나의 리뷰</a></li>

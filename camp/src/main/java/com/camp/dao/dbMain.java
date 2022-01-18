@@ -14,7 +14,7 @@ public class dbMain {
         dto.setUser_name("리봉철");
         dto.setUser_tel("01015354685");
         dto.setUser_email("bong0717@naver.com");
-        dao.memberDelete(dto);
+        // dao.(dto);
         // int result = dao.getLoginResult(dto);
         // System.out.println(result);
     }
