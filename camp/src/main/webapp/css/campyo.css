@@ -184,6 +184,7 @@ form[name="loginForm"] ul {
     form[name="joinForm"] ul {
         list-style-type:none;
     }
+    .pass_msg{font-size:9pt;}
     .content .top li { padding:0 0 20px;}
     .content .top li label { display:inline-block; width:150px; color:black; font-family:dotum; font-size:15px; font-weight:bold;}
      .content .top li input {width:220px; height:27px; padding:0; border:1px solid gray; border-radius:5px;}
