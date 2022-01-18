@@ -19,16 +19,16 @@
 <% if(lid == null){ %>
             <nav>               
                 <ul class="header_a">
-                    <li><a href="http://localhost:9000/camp_camp/login/login.jsp" target="_parent">로그인</a></li>
-                    <li><a href="http://localhost:9000/camp_camp/join/join.jsp" target="_parent">회원가입</a></li>
+                    <li><a href="login/login.jsp" target="_parent">로그인</a></li>
+                    <li><a href="join/join.jsp" target="_parent">회원가입</a></li>
                 </ul>
             </nav>
             <% }else{ %>
               <nav>             
                 <ul class="header_a">
                     <li><a href="#"><%= lid %>님!!</a></li>
-                    <li><a href="http://localhost:9000/camp_camp/login/logout.jsp" target="_parent">로그아웃</a></li>
-                    <li><a href="http://localhost:9000/camp_camp/mypage/mypage.jsp" target="_parent">마이페이지</a></li>  
+                    <li><a href="login/logout.jsp" target="_parent">로그아웃</a></li>
+                    <li><a href="mypage/mypage.jsp" target="_parent">마이페이지</a></li>  
                     <% } %>
                 </ul>
             </nav>
