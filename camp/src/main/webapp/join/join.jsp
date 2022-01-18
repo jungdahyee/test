@@ -26,7 +26,8 @@
                     </li>
                     <li>
                         <label>비밀번호확인*</label>
-                        <input name="cpass" type="password" id="cpass">
+                        <input name="cpass" type="password" id="cpass" onblur="passCheck()">
+                        <span id="pass_msg" class="pass_msg"></span>
                     </li>
                     <li>
                         <label>이름*</label>

@@ -43,7 +43,7 @@ function joinFormCheck(){
         pass.focus();
         return false;
     }else if(cpass.value==""){
-        document.getElementById("join_message").innerHTML="비밀번호를 입력해주세요";
+        document.getElementById("join_message").innerHTML="비밀번호확인을 입력해주세요";
         cpass.focus();
         return false;
     }else if(name.value==""){
@@ -74,13 +74,25 @@ function joinFormCheck(){
 }
 
 function passCheck(){
-    let id;
-    id=document.getElementById("id");
-    if(id.value==""){
-       document.getElementById("id_space").innerHTML="아이디는 필수로 입력해야합니다.";
-       id.focus();
+    let pass,cpass,name,msg;
+    pass=document.getElementById("pass");
+    cpass=document.getElementById("cpass");
+    name=document.getElementById("name");
+    msg=document.getElementById("pass_msg");
+    
+    if(pass.value!=""&&cpass.value!=""){
+    if(pass.value==cpass.value){
+       msg.innerHTML="비밀번호 일치";
+       msg.style.color="blue";
+       name.focus();
+       return true;
     }else{
-        document.getElementById("id_space").innerHTML="";
+        msg.innerHTML="비밀번호 불일치";
+        msg.style.color="red";
+        pass.value=""; cpass.value="";
+        pass.focus();
+        return false;
+    }
     }
 }
 
