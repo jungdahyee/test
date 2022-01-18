@@ -22,10 +22,13 @@
                         <input name="pass" type="password" id="pass">
                     </li>
                     <li>
-                        <button type="button" onclick="joinFormCheck()" class="btn_join">탈퇴하기</button>
+                        <input type="button" value="탈퇴하기" id="exit_member" onclick="exit_event()">
                     </li>
                 </ul>
         </form>
     </div>
+    
+    <script src="../js/mypage.js"></script>
+    
 </body>
 </html>

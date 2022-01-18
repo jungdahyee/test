@@ -42,6 +42,16 @@
             </tr>
         </tbody>
     </table>
+    
+    <hr/>
+    
+    <div class="text-center">
+        <ul class="pagination">
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+        </ul>
+    </div>
 
     <!-- 게시판 메인 페이지 영역 시작 -->
     <!-- <div class="container">
