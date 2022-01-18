@@ -55,7 +55,7 @@ public class memberDAO extends DBconn {
             rs = pstmt.executeQuery();
             while (rs.next()) {
                 dto.setUser_id(rs.getString(1));
-                dto.setUser_id(rs.getString(1));
+                dto.setUser_pass(rs.getString(2));
             }
 
             close();
