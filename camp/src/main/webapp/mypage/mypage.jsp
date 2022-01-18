@@ -10,8 +10,10 @@
 <link href="../css/mypage.css" rel="stylesheet">
 </head>
 <body>
+    <!-- header -->
     <iframe class="h" src="../header.jsp" scrolling="no" width="100%" height="100"></iframe>
     
+    <!-- 사이드 네비바 -->
     <div class="sidebar_menu">
     <ul>
         <li><a href="change_info.jsp" target="frame_target">회원정보 조회&수정</a></li>
@@ -22,8 +24,10 @@
     </ul>
     </div>
     
+    <!-- 마이페이지 iframe -->
     <iframe id="main_iframe" src="main_iframe.jsp" name="frame_target"></iframe>
     
+    <!-- footer -->
     <iframe class="f" src="../footer.jsp" scrolling="no" width="100%" height="50"></iframe> 
 </body>
 </html>

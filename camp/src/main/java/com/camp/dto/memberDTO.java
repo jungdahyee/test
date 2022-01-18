@@ -1,7 +1,7 @@
 package com.camp.dto;
 
 public class memberDTO {
-    String user_id, user_pass, user_name, user_tel, user_email, user_sdate, user_exityn;
+    String user_id, user_pass, user_name, user_tel, user_email, user_sdate, user_exityn, hp1, hp2, hp3, email1, email2;
 
     public String getUser_id() {
         return user_id;
@@ -57,6 +57,46 @@ public class memberDTO {
 
     public void setUser_exityn(String user_exityn) {
         this.user_exityn = user_exityn;
+    }
+
+    public String getHp1() {
+        return hp1;
+    }
+
+    public void setHp1(String hp1) {
+        this.hp1 = hp1;
+    }
+
+    public String getHp2() {
+        return hp2;
+    }
+
+    public void setHp2(String hp2) {
+        this.hp2 = hp2;
+    }
+
+    public String getHp3() {
+        return hp3;
+    }
+
+    public void setHp3(String hp3) {
+        this.hp3 = hp3;
+    }
+
+    public String getEmail1() {
+        return email1;
+    }
+
+    public void setEmail1(String email1) {
+        this.email1 = email1;
+    }
+
+    public String getEmail2() {
+        return email2;
+    }
+
+    public void setEmail2(String email2) {
+        this.email2 = email2;
     }
 
 }

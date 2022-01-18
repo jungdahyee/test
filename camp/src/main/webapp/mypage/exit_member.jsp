@@ -22,7 +22,8 @@
                         <input name="pass" type="password" id="pass">
                     </li>
                     <li>
-                        <input type="button" value="탈퇴하기" id="exit_member" onclick="exit_event()">
+                        <!-- <input type="button" value="탈퇴하기" id="exit_member" onclick="exit_event()"> -->
+                        <button type="button" class="btn_style1" id="exit_member" onclick="exit_event()">탈퇴하기</button>
                     </li>
                 </ul>
         </form>
