@@ -12,12 +12,12 @@
 <iframe class="h" src="../header.jsp" scrolling="no" width="100%" height="100"></iframe>
 
         <div class="content">
-        <form name="joinForm" action="" method="post">
+        <form name="joinForm" action="join_proc.jsp" method="post">
             <h1 class="logo_name">campYo</h1>
                 <ul class="top">
                     <li>
                         <label>아이디*</label>
-                        <input name="ia" type="text" id="id">
+                        <input name="id" type="text" id="id">
                         <button type="button" class="btn_style1">중복확인</button>
                     </li>
                     <li>   

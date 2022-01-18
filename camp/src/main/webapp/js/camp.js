@@ -22,16 +22,18 @@ function loginFormCheck(){
 
 
 function joinFormCheck(){
-    let id, pass, cpass, name, hp1,hp2,hp3,email1,email2;
-    id=document.getElementById("id");
-    pass=document.getElementById("pass");
+    let user_id, user_pass, cpass, user_name,user_tel,user_eamil,hp1,hp2,hp3,email1,email2;
+    user_id=document.getElementById("id");
+    user_pass=document.getElementById("pass");
     cpass=document.getElementById("cpass");
-    name=document.getElementById("name");
+    user_name=document.getElementById("name");
     hp1=document.getElementById("hp1");
     hp2=document.getElementById("hp2");
     hp3=document.getElementById("hp3");
     email1=document.getElementById("email1");
     email2=document.getElementById("email2");
+    user_tel=hp1+hp2+hp3;
+    user_email=email1+email2;
 
     
     if(id.value==""){
