@@ -9,20 +9,48 @@
 <link href="../css/campyo.css" rel="stylesheet">
 </head>
 <body>
-    <div class="login">
-    
-          <form name="loginForm" action="" method="post">
-                <h1 class="logo_name">campYo</h1>
+    <div class="content">
+        <form name="joinForm" action="join_proc.jsp" method="post">
+            <h1 class="logo_name">campYo</h1>
                 <ul class="top">
-                    <li class="pass1">
-                        <label>비밀번호</label>
-                        <input type="password" name="pass" id="pass">
+                    <li>
+                        <label>아이디</label>
+                        <input name="id" type="text" id="id">
                     </li>
                     <li>
-                        <span class="login_message" id="login_message"></span>
-                      <button type="button" class="btn_style1" onclick="loginFormCheck()">회원정보 조회&수정</button>
-                 </ul>
-          </form>
-       </div>
+                        <label>이름</label>
+                        <input name="name" type="text" id="name">
+                    </li>
+                    <li>
+                       <label>핸드폰번호</label>
+                       <span>
+                           <select name="hp1" class="hp" id="hp1">
+                               <option value="010">010</option>
+                               <option value="011">011</option>
+                               <option value="016">016</option>
+                           </select>
+                               - <input type="text" name="hp2" class="hp2" id="hp2">
+                               - <input type="text" name="hp3" class="hp3" id="hp3">
+                       </span>
+                    </li>
+                    <li>
+                        <label>이메일</label>
+                        <input name="email1" type="email" id="email1" class="email1"> @
+                        <input name="eamil2" type="email" id="email2" class="email2">
+                        <select class="email3" id="email3" onchange="emailCheck()">
+                            <option value="choice">선택</option>
+                            <option value="naver.com">naver.com</option>
+                            <option value="google.com">google.com</option>
+                            <option value="daum.net">daun.net</option>
+                            <option value="self">직접입력</option>
+                        </select>                   
+                    </li>
+                    <li>
+                        <span class="join_message" id="join_message"></span>
+                        <button type="button" onclick="joinFormCheck()" class="btn_join">정보수정</button>
+                    </li>
+                </ul>
+            </form>
+            </div>
 </body>
 </html>

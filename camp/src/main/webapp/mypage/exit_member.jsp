@@ -10,20 +10,20 @@
 </head>
 <body>
     <div class="content">
-        <form name="joinForm" action="" method="post">
+        <form name="exitForm" action="exit_proc.jsp" method="post">
             <h1 class="logo_name">campYo</h1>
                 <ul class="top">
                     <li>
                         <label>아이디</label>
-                        <input name="ia" type="text" id="id">
+                        <input name="user_id" type="text" id="id">
                     </li>
                     <li>   
                         <label>비밀번호</label>
-                        <input name="pass" type="password" id="pass">
+                        <input name="user_pass" type="password" id="pass">
                     </li>
                     <li>
-                        <!-- <input type="button" value="탈퇴하기" id="exit_member" onclick="exit_event()"> -->
-                        <button type="button" class="btn_style1" id="exit_member" onclick="exit_event()">탈퇴하기</button>
+                        <span class="exit_message" id="exit_message"></span>
+                        <button type="button" onclick="exitFormCheck()" class="btn_exit">탈퇴하기</button>
                     </li>
                 </ul>
         </form>
