@@ -7,15 +7,16 @@ public class memberDAO extends DBconn {
         int result = 0;
         String sql = "insert into member values(?,?,?,?,?,sysdate,?)";
         String tel = dto.getHp1() + dto.getHp2() + dto.getHp3();
+        String email = dto.getEmail1() + "@" + dto.getEmail2();
         dto.setUser_tel(tel);
-        String email = dto.getEmail1() + dto.getEmail2();
+        dto.setUser_email(email);
         getPreparedStatement(sql);
         try {
             pstmt.setString(1, dto.getUser_id());
             pstmt.setString(2, dto.getUser_pass());
             pstmt.setString(3, dto.getUser_name());
             pstmt.setString(4, dto.getUser_tel());
-            pstmt.setString(5, dto.getUser_email() + email);
+            pstmt.setString(5, dto.getUser_email());
             pstmt.setString(6, "y");
 
             result = pstmt.executeUpdate();
@@ -41,6 +42,33 @@ public class memberDAO extends DBconn {
             e.printStackTrace();
         }
         return result;
+
+    }
+
+    public memberDTO myPageselect(String user_id) {
+        memberDTO dto = new memberDTO();
+        String sql = "select * from member where user_id = ?";
+        getPreparedStatement(sql);
+
+        try {
+            pstmt.setString(1, user_id);
+            rs = pstmt.executeQuery();
+            while (rs.next()) {
+                dto.setUser_id(rs.getString(1));
+                dto.setUser_id(rs.getString(1));
+            }
+
+            close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return dto;
+    }
+
+    public memberDTO getIdFind(String user_name, String emaill) {
+        memberDTO dto = new memberDTO();
+        // String sql =
+        return dto;
 
     }
 
