@@ -13,7 +13,7 @@
     if(result == 1){
         //로그인 성공---> id를 세션에 담아 브라우저에 전송
         session.setAttribute("lid", dto.getUser_id());
-        response.sendRedirect("http://localhost:9000/camp_camp/main.jsp");
+        response.sendRedirect("../main.jsp");
     }else{
         response.sendRedirect("login.jsp?login_result=fail");
     }

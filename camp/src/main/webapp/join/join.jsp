@@ -48,7 +48,7 @@
                     <li>
                         <label>이메일*</label>
                         <input name="email1" type="email" id="email1" class="email1"> @
-                        <input name="eamil2" type="email" id="email2" class="email2">
+                        <input name="email2" type="email" id="email2" class="email2">
                         <select class="email3" id="email3" onchange="emailCheck()">
 		                    <option value="choice">선택</option>
 		                    <option value="naver.com">naver.com</option>

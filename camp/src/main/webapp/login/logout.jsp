@@ -19,7 +19,7 @@
 <body>
 <script>
         alert("로그아웃 완료되었습니다. 메인으로 이동합니다.");
-        location.href="http://localhost:9000/camp_camp/main.jsp";
+        location.href="../main.jsp";
     </script>
 </body>
 </html>
