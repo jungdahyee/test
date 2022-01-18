@@ -32,8 +32,14 @@ function joinFormCheck(){
     hp3=document.getElementById("hp3");
     email1=document.getElementById("email1");
     email2=document.getElementById("email2");
-    user_tel=hp1+hp2+hp3;
-    user_email=email1+email2;
+    user_tel=hp1.value+hp2.value+hp3.value;
+    user_email=email1.value+email2.value;
+    alert(user_tel.value);
+    alert(user_email.value);
+    alert(user_id.value);
+    console.log(user_id.value);
+    console.log(user_tel.value);
+    
 
     
     if(id.value==""){
