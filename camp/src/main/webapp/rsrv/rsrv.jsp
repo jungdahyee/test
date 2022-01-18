@@ -17,7 +17,7 @@
                 <ul class="top">
                     <li>
                         <label>객실명</label>
-                        <input name="ia" type="text" id="id">
+                        <input name="name" type="text" id="name">
                     </li>
                     <li>   
                         <label>날짜</label>
@@ -52,8 +52,9 @@
                        </span>
                     </li>
                     <li>
-                        <button type="button" onclick="joinFormCheck()" class="btn_rsrv1">예약하기</button>
-                        <button type="button" onclick="joinFormCheck()" class="btn_rsrv2">뒤로가기</button>
+                        <span class="rsrv_message" id="rsrv_message"></span>
+                        <button type="button" onclick="rsrvFormCheck()" class="btn_rsrv1">예약하기</button>
+                        <button type="button" onclick="rsrvFormCheck()" class="btn_rsrv2">뒤로가기</button>
                     </li>
                 </ul>
             </form>

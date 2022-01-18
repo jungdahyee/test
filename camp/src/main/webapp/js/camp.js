@@ -157,6 +157,35 @@ function findPassFormCheck(){
     }
 }
 
+function rsrvFormCheck(){
+    let rname, rsrv_man, hp1, hp2, hp3;
+    rname=document.getElementById("rname");
+    hp2=document.getElementById("hp2");
+    hp3=document.getElementById("hp3");
+    
+     if(rname.value==""){
+        document.getElementById("rsrv_message").innerHTML="예약자명을 입력해주세요";
+        rname.focus();
+    }else if(hp2.value==""){
+        document.getElementById("rsrv_message").innerHTML="중간번호를 입력해주세요";
+        hp2.focus();
+    }else if(hp3.value==""){
+        document.getElementById("rsrv_message").innerHTML="마지막번호를 입력해주세요";
+        hp3.focus();
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
