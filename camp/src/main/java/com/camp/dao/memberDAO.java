@@ -13,7 +13,7 @@ public class memberDAO extends DBconn {
             pstmt.setString(3, dto.getUser_name());
             pstmt.setString(4, dto.getUser_tel());
             pstmt.setString(5, dto.getUser_email());
-            pstmt.setString(6, dto.getUser_exityn());
+            pstmt.setString(6, "y");
 
             result = pstmt.executeUpdate();
 
