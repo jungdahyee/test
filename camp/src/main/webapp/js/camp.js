@@ -13,6 +13,8 @@ function loginFormCheck(){
         msg.innerHTML="비밀번호를 입력해주세요"
         pass.focus();
         return false;
+    }else{
+        loginForm.submit();
     }
     
 }
