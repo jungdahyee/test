@@ -287,8 +287,9 @@ form[name="loginForm"] ul {
      .rsrv .top .btn_rsrv2{display:inline-block; width:100px; height:50px;
                                 background:#BCFF66; text-align:center; font-family:dotum; color:white; font-size:15px; font-weight:bold;
                                 margin:0 0 0 50px; border:1px solid gray; border-radius:5px;}
-     
-     
+    span.rsrv_message{
+        color:red; font-size:10pt ; display:block; text-align:center; padding:5px; margin-right:20px; margin-top:-20px;
+  }
      
      
      
