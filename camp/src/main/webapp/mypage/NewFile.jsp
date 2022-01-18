@@ -7,7 +7,6 @@
 <meta name="viewport" content = "width=device-width", initial-scale="1">
 <title>Insert title here</title>
 </head>
-<body>
     <script type="text/javascript">
     function exit-event(){
     if(confirm("정말 등록하시겠습니까 ?") == true){
@@ -18,8 +17,9 @@
     }
     });
 </script>
+<body>
  
-<input type="button" value="" id = "insert_btn" onclick="exit-event();">
+<input type="button" value="Tlqkf" id = "insert_btn" onclick="exit-event();">
 
 </body>
 </html>

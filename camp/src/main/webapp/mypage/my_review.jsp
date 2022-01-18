@@ -18,7 +18,6 @@
                 <th>리뷰</th>
                 <th>등록일</th>
                 <th>좋아요</th>
-                <th></th>
             </tr>
         </thead>
         <tbody>
@@ -26,22 +25,21 @@
                 <th>북극곰캠핑장에서 동무들과 추억을 남기세~~</th>
                 <th>21-01-02</th>
                 <th>1</th>
-                <th><input type='button' value='리뷰삭제'></th>
             </tr>
             <tr>
                 <th>망고캠핑장에서 망고를 구워 먹었어요~~</th>
                 <th>21-01-03</th>
                 <th>31</th>
-                <th><input type='button' value='리뷰삭제'></th>
             </tr>
             <tr>
                 <th>개나리캠핑장에서 고라니를 만났어요~~</th>
                 <th>21-01-04</th>
                 <th>24</th>
-                <th><input type='button' value='리뷰삭제'></th>
             </tr>
         </tbody>
     </table>
+    
+    <a href="#" class="btn">리뷰삭제</a>
     
     <hr/>
     
