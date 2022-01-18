@@ -24,11 +24,11 @@
                 <ul class="top">
                     <li>
                         <label>아이디</label>
-                        <input type="text" name="id" id="id">
+                        <input type="text" name="user_id" id="id">
                     </li>
                     <li class="pass1">
                         <label>비밀번호</label>
-                        <input type="password" name="pass" id="pass">
+                        <input type="password" name="user_pass" id="pass">
                     </li>
                     <li>
                         <span class="login_message" id="login_message"></span>
