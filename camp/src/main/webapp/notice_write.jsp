@@ -16,7 +16,7 @@
 	<div class="content">
 		<section class="login">
 			<h1>게시판</h1>
-			<form name="notice_Form" action="" method="post"> <!-- 액션 추가필요  -->
+			<form name="notice_Form" action="" method="post"> <!-- 액션 추가필요   -->
 				<table class="notice_write">
 					<tr>					
 						<th>제목</th>
