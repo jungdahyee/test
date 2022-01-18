@@ -1,7 +1,7 @@
 package com.camp.dto;
 
 public class memberDTO {
-    String user_id, user_pass, user_name, user_tel, user_email, sdate, user_exityn;
+    String user_id, user_pass, user_name, user_tel, user_email, user_sdate, user_exityn;
 
     public String getUser_id() {
         return user_id;
@@ -43,12 +43,12 @@ public class memberDTO {
         this.user_email = user_email;
     }
 
-    public String getSdate() {
-        return sdate;
+    public String getUser_sdate() {
+        return user_sdate;
     }
 
-    public void setSdate(String sdate) {
-        this.sdate = sdate;
+    public void setUser_sdate(String user_sdate) {
+        this.user_sdate = user_sdate;
     }
 
     public String getUser_exityn() {
