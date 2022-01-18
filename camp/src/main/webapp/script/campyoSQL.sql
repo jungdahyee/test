@@ -8,7 +8,9 @@ create table MEMBER(
   SDATE date not null,
   USER_EXITYN VARCHAR(1) not null
 );
-
+insert into member values('test', '1234', 'ȫ�浿', '01012341234','test@naver.com',sysdate,'y');
+commit;
+select * from member;
 create table camp(
   camp_name VARCHAR2(30) CONSTRAINT camp_name_PK primary key,
   camp_city VARCHAR2(30) not null,
@@ -53,7 +55,7 @@ create table rsvn(
   rsvn_roomname VARCHAR2(30) not null,
   rsvn_camp VARCHAR2(30) not null,
   rsvn_del_rsrvyn VARCHAR2(1) not null,
-  rsvn_userid VARCHAR2(12) not null
+  rsvn_userid VARCHAR2(12) not null,
   CONSTRAINT FK_RSVN_ROOMNAME_ROMMCAMP FOREIGN KEY(rsvn_roomname,rsvn_camp)
   REFERENCES room(room_name,room_camp) ON DELETE SET NULL,
   CONSTRAINT FK_RSVN_USERID FOREIGN KEY(rsvn_userid)
@@ -70,3 +72,5 @@ create table image(
   CONSTRAINT FK_image_num FOREIGN KEY(image_num)
   REFERENCES review(review_num) ON DELETE CASCADE
 );
+select * from member;
+commit;
