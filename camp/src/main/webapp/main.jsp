@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta name="viewport" content = "width=device-width", initial-scale="1">
-<title>Insert title here</title>
+<title>메인</title>
 <link href="css/campyo.css" rel="stylesheet">
 </head>
 <body>
