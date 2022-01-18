@@ -26,9 +26,24 @@ public class memberDAO extends DBconn {
         return result;
     }
 
+    public int memberDelete(memberDTO dto) {
+        System.out.println("memberDelete작동");
+        int result = 0;
+        String sql = "update member set USER_EXITYN ='n' where user_id = ?";
+        getPreparedStatement(sql);
+        try {
+            pstmt.setString(1, dto.getUser_id());
+            result = pstmt.executeUpdate();
+
+            close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return result;
+
+    }
+
     public int getLoginResult(memberDTO dto) {
-        System.out.println(dto.getUser_id());
-        System.out.println(dto.getUser_pass());
 
         int result = 0;
         String sql = "select count(*) from member where user_id= ? and user_pass= ? and USER_EXITYN = ?";
@@ -42,6 +57,7 @@ public class memberDAO extends DBconn {
             while (rs.next()) {
                 result = rs.getInt(1);
             }
+            close();
         } catch (Exception e) {
             e.printStackTrace();
         }

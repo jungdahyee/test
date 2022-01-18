@@ -12,7 +12,7 @@
 <iframe class="h" src="../header.jsp" scrolling="no" width="100%" height="100"></iframe>
 
         <div class="content">
-        <form name="joinForm" action="join_proc.jsp" method="post">
+        <form name="joinForm" action="join_p roc.jsp" method="post">
             <h1 class="logo_name">campYo</h1>
                 <ul class="top">
                     <li>
