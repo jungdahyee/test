@@ -7,13 +7,14 @@ public class memberDAO extends DBconn {
         int result = 0;
         String sql = "insert into member values(?,?,?,?,?,sysdate,?)";
         String tel = dto.getHp1() + dto.getHp2() + dto.getHp3();
+        dto.setUser_tel(tel);
         String email = dto.getEmail1() + dto.getEmail2();
         getPreparedStatement(sql);
         try {
             pstmt.setString(1, dto.getUser_id());
             pstmt.setString(2, dto.getUser_pass());
             pstmt.setString(3, dto.getUser_name());
-            pstmt.setString(4, dto.getUser_tel() + tel);
+            pstmt.setString(4, dto.getUser_tel());
             pstmt.setString(5, dto.getUser_email() + email);
             pstmt.setString(6, "y");
 
