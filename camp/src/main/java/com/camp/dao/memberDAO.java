@@ -70,9 +70,9 @@ public class memberDAO extends DBconn {
     }
 
     // 아이디찿기
-    public Boolean getIdFind(memberDTO dto) {
+    public String getIdFind(memberDTO dto) {
         System.out.println("getIdFind Start");
-        Boolean result = false;
+        String result = null;
         String sql = "select user_id from member where user_name = " + "? AND  USER_EMAIL = ?";
         getPreparedStatement(sql);
 
@@ -88,7 +88,7 @@ public class memberDAO extends DBconn {
             System.out.println("데이터베이스 입력");
             while (rs.next()) {
                 dto.setUser_id(rs.getString(1));
-                result = true;
+                result = dto.getUser_id();
                 System.out.println("while");
             }
             close();

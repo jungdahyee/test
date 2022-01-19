@@ -13,10 +13,10 @@ public class dbMain {
         // dao.(dto);
         // int result = dao.getLoginResult(dto);
         // System.out.println(result);
-        dto.setEmail1("kimsia0717");
+        dto.setEmail1("kimsia717");
         dto.setEmail2("naver.com");
         dto.setUser_name("김시아");
-        Boolean result = dao.getIdFind(dto);
+        String result = dao.getIdFind(dto);
         System.out.println(result);
         // String userid = dto.getUser_id();
         // System.out.println(userid);

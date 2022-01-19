@@ -4,6 +4,7 @@
     
 <jsp:useBean id="dto"  class="com.camp.dto.memberDTO"></jsp:useBean> 
 <jsp:setProperty property="*" name="dto"/>
+<jsp:getProperty property="*" name="dto"/>
 
 <%
     memberDAO dao = new memberDAO();
