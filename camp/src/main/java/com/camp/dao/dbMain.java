@@ -9,14 +9,17 @@ public class dbMain {
         memberDTO dto = new memberDTO();
         memberDAO dao = new memberDAO();
 
-        dto.setUser_id("bong123");
-        dto.setUser_pass("@1234567");
-        dto.setUser_name("리봉철");
-        dto.setUser_tel("01015354685");
-        dto.setUser_email("bong0717@naver.com");
+        // System.out.println(dto.getUser_id());
         // dao.(dto);
         // int result = dao.getLoginResult(dto);
         // System.out.println(result);
+        dto.setEmail1("kimsia0717");
+        dto.setEmail2("naver.com");
+        dto.setUser_name("김시아");
+        Boolean result = dao.getIdFind(dto);
+        System.out.println(result);
+        // String userid = dto.getUser_id();
+        // System.out.println(userid);
     }
 
 }

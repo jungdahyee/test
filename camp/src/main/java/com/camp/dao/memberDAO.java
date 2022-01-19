@@ -3,6 +3,7 @@ package com.camp.dao;
 import com.camp.dto.memberDTO;
 
 public class memberDAO extends DBconn {
+
     public int insert(memberDTO dto) {
         int result = 0;
         String sql = "insert into member values(?,?,?,?,?,sysdate,?)";
@@ -45,37 +46,66 @@ public class memberDAO extends DBconn {
 
     }
 
-    public memberDTO myPageselect(String user_id) {
-        memberDTO dto = new memberDTO();
+    // 마이페이지 정보
+    public Boolean myPageselect(memberDTO dto) {
+        Boolean result = false;
         String sql = "select * from member where user_id = ?";
         getPreparedStatement(sql);
 
         try {
-            pstmt.setString(1, user_id);
+            pstmt.setString(1, dto.getUser_id());
             rs = pstmt.executeQuery();
             while (rs.next()) {
                 dto.setUser_id(rs.getString(1));
                 dto.setUser_pass(rs.getString(2));
+
+                result = true;
             }
 
             close();
         } catch (Exception e) {
             e.printStackTrace();
         }
-        return dto;
+        return result;
     }
 
-    public memberDTO getIdFind(String user_name, String emaill) {
-        memberDTO dto = new memberDTO();
-        // String sql =
-        return dto;
+    // 아이디찿기
+    public Boolean getIdFind(memberDTO dto) {
+        System.out.println("getIdFind Start");
+        Boolean result = false;
+        String sql = "select user_id from member where user_name = " + "? AND  USER_EMAIL = ?";
+        getPreparedStatement(sql);
+
+        String email = dto.getEmail1() + "@" + dto.getEmail2();
+        String name = dto.getUser_name();
+        dto.setUser_name(name);
+        dto.setUser_email(email);
+        System.out.println("try 전");
+        try {
+            pstmt.setString(1, dto.getUser_name());
+            pstmt.setString(2, dto.getUser_email());
+            rs = pstmt.executeQuery();
+            System.out.println("데이터베이스 입력");
+            while (rs.next()) {
+                dto.setUser_id(rs.getString(1));
+                result = true;
+                System.out.println("while");
+            }
+            close();
+        } catch (Exception e) {
+            System.out.println("catch");
+            e.printStackTrace();
+        }
+
+        return result;
 
     }
 
+    // 로그인 아이디 패스 탈퇴여부 확인
     public int getLoginResult(memberDTO dto) {
 
         int result = 0;
-        String sql = "select count(*) from member where user_id= ? and user_pass= ? and USER_EXITYN = ?";
+        String sql = "select count(*) from member where user_id= ? and" + " user_pass= ? and USER_EXITYN = ?";
         getPreparedStatement(sql);
         try {
 
